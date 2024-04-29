@@ -2,7 +2,7 @@
 """
 Code to calculate stat-RISMED score and assign priority to each case
 Factors considered:
-1. MedDRA-LLT severity (obtained from CISTERM / MedDefects-DPT-BERT) -- high vs non-high
+1. MedDRA-LLT severity (obtained from CISTERM) -- high vs non-high
 2. Overseas action (obtained from BERT classifier) -- Yes/Unknown vs No
 3. Broad therapeutic indication (rule-based keyword matching for products) -- Lifesaving vs Therapeutic/Vaccine/Symptomatic/Others
 
